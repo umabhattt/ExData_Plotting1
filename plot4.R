@@ -1,5 +1,8 @@
 library(dplyr)
 
+#unfortuantely, could not figure out how to change the x axis labels to the weekdays but the actual plot is accurate!
+
+
 mydata = read.table("/Users/rose/Documents/Course 4/Week 1 Project/household_power_consumption.txt", sep = ";", header = TRUE)
 
 mydata$Date <- as.Date(mydata$Date, format = "%d/%m/%Y")
